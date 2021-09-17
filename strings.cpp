@@ -21,8 +21,8 @@ int main() {
 	string text = "feliz ", text2 = "triste", sum;
 
 //interrompe quando	clica espaço
-	//cin >> text;
-	//cout << text << endl;
+	cin >> text;
+	cout << text << endl;
 
 //pega os espaços (why cin bug?)	
 	getline(cin, text2);
