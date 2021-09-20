@@ -19,6 +19,11 @@ int sum (int a, int b) {
 	
 	return r;
 }
+
+//voids do not return so we don´t have to associate with a variable later
+void printing (int num) {
+	cout << "Numero " << num < "\n";
+}
  
 int main () {
 	int c, d;
@@ -30,6 +35,8 @@ int main () {
 	
 	//or arguments
 	cout << "Sum2: " << sum(5, 10) << endl;
+	
+	printing(2);
 	
 	return 0;
 }
